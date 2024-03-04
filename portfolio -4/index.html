@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Developer<span>X.</span></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Serivces</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="top-btnn">
+                <a href="mailto:agarkhedaditya@gmail.com" class="h-btn">Contact me</a>
+            </div>
+        </header>
+
+        <section class="hero" id="home">
+            <div class="main-content" data-aos="fade-in">
+                <h4>Hi, There!</h4>
+                <h1>I'm <span>Aditya Agarkhed</span></h1>
+                <p>Data Science Master's Student @ Indiana University | Experienced Software Engineer | Expert in C#, Python, SQL | Machine Learning enthusiast</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/aditya.agarkhed" target="_blank"><i class="ri-facebook-fill"></i></a>
+                    <a href="https://github.com/aditya1704" target="_blank"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/adityaagarkhed/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                </div>
+                <div class="main-btn">
+                    <a href="#" onclick="sendEmail()" class="btn">Hire Me</a>
+                    <a href="img/Aditya_Agarkhed CS Resume.pdf" target="_blank" class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about"  id="about">
+                <div class="about-img" data-aos="zoom-in-down">
+                <img src="img/IMG_5743.jpg">
+            </div>
+            <div class="about-text" data-aos="zoom-in-up">
+                <h2>About <span>Me</span></h2>
+               
+                <div class="exp-area">
+                    <p>Experienced software engineer with a passion for coding and a strong interest in cutting-edge technology. With two years of hands-on experience in software development, I have demonstrated my ability to design and implement innovative solutions while staying up-to-date with industry trends. I am committed to continuous learning and thrive in dynamic, collaborative environments, where I can contribute my technical expertise and problem-solving skills to drive software projects to success. 
+                        Fluent in .NET and SQL Server programming languages used to develop software. Proud team player focused on achieving project objectives with speed and accuracy.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>2021 - 2023</span><br>Senior Software Engineer at Capgemini</li><br>
+                            <li><span>June - August(2019)</span><br>Java Developer Intern at Trivia Softwares</li><br>
+                            <li><span>June - August(2018)</span><br>Web Developer Inern at DecodeTech</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents ative-tab" id="education">
+                        <ul>
+                            <li><span>2017-2021</span><br>Bachelor's in Computer Science - University of Mumbai</li><br>
+                            <li><span>2023-Current</span><br>Master's in Data Science - Indiana University Bloomington</li><br>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="btn">View All Projects</a>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="center-text" data-aos="fade-down">
+                <h2>My<span>Skills</span></h2>
+            </div>
+            <div class="services-content" data-aos="zoom-in-up">
+                <div class="box">
+                    <img src="">
+                    <h3>Software Engineering</h3>
+                    <div class="article-container">
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>C#</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>.NET Framework</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Java</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>React</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Node.js</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>ExpressJS</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>                        
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>MongoDB</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>JavaScript</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>HTML</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>CSS</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="">
+                    <h3>Data Engineering</h3>
+                    <div class="article-container">
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Python</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>R</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>MS SQL</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Oracle</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Data Mining</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>PowerBI</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Hadoop</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Cloud Computing</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Azure</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Data Architecture</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="">
+                    <h3>Machine Learning</h3>
+                    <div class="article-container">
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Python</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Statistics</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Supervised Learning</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>UnSupervised Learning</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Nerual Networks</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Tensorflow</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Scikit Learn</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>PyTorch</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Data Analysis</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <div>
+                                <h4>Data processing</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="center-text" data-aos="fade-down">
+                <h2>My <span>Portfolio</span></h2>
+            </div>
+            <div class="Portfolio-content" data-aos="zoom-in-up">
+                <div class="row">
+                    <img src="img/WhatsApp Image 2024-03-03 at 4.25.23 PM.jpeg">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h4>Spotify Playlist Recommendation System</h4>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/aditya1704/Spotify-Playlist-Recommendation-System" target="_blank">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>Developed recommendation system using collaborative & content based filtering on spotify dataset</h5>
+                </div>
+
+                <div class="row">
+                    <img src="img/DALLE2024-03-0316.19.46-AsophisticatedandfuturistictitleimageforamachinelearningprojecttitledPredictiveModelingandAnalysisofHappinessData.Theimageshoul-ezgif.com-webp-to-jpg-converter.jpg">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h4>Predictive Modelling And Analysis Of Happiness Data</h4>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/aditya1704/Predictive-Modelling-and-analysis-of-happiness-data" target="_blank">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>Conducted extensive EDA, statistical evaluation methods and applied regression models to predict happiness of a given country based on different country characteristics.</h5>
+                </div>
+
+                <div class="row">
+                    <img src="img/tech store.jpeg">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h4>Tech Store</h4>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/aditya1704/Tech-Store" target="_blank">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>This project is an E-commerce website using React & contentful api</h5>
+                    <div>
+                        <a href="https://tech-store1904.netlify.app/" target="_blank" class="btn btn3">Visit Website</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="img/DALLE2024-03-0316.19.46-AsophisticatedandfuturistictitleimageforamachinelearningprojecttitledPredictiveModelingandAnalysisofHappinessData.Theimageshoul-ezgif.com-webp-to-jpg-converter.jpg">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h4>Mutli Faceted Image Analysis</h4>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/aditya1704/Multi-faceted-image-analysis" target="_blank">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>Applied advanced image analysis techniques, including PCA, t-SNE, LLE, and MDS, to '360 Rocks' images, effectively reducing dimensionality and revealing meaningful patterns.</h5>
+                </div>
+
+                <div class="row">
+                    <img src="img/studentmanagement.jpeg">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h4>Student Management System</h4>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/aditya1704/Student-Management-System" target="_blank">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>Developed Student Management System using Java, Java Swing modules, Hibernate framework and oracle</h5>
+                </div>
+
+                <div class="row">
+                    <img src="img/clothingApp.jpeg">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h4>Clothing App</h4>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/aditya1704/clothing-app" target="_blank">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>The project is built using React and uses Redux to manage state.</h5>
+                    <div>
+                        <a href="https://wonderful-mayer-290833.netlify.app/" target="_blank" class="btn btn3">Visit Website</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="img/fruitninja.jpeg">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h4>Fruit Game</h4>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/aditya1704/Fruit-Game" target="_blank">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>This project is a game bulit using javascript and jQuery.</h5>
+                    <div>
+                        <a href="https://fruitgame.netlify.app/" target="_blank" class="btn btn3">Visit Website</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="img/LightsOut.jpeg">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h4>Lights-Out Game</h4>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/aditya1704/lights-out-game" target="_blank">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>Single Player game with the aim of turning out all lights.</h5>
+                    <div>
+                        <a href="https://lights-out-game1904.netlify.app/" target="_blank" class="btn btn3">Visit Website</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+ 
+        <section class="contact" id="contact">
+            <div class="center-text" data-aos="fade-down">
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-form" data-aos="zoom-in">
+                <form action="https://formspree.io/xaypawar" method="POST">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Email Address" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                    <input type="submit" name="" value="Send Message" class="send-btn">
+                </form>
+            </div>
+        </section>
+
+        <div class="footer">
+            <div class="copyright">
+                <p>2024 Aditya Agarkhed, All Rights Reserved.</p>
+            </div>
+            <a href="#home" class="scroll-top">
+                <i class="ri-arrow-up-s-fill"></i>
+            </a>
+        </div>
+        <script src="js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+        AOS.init({
+            offset: 300,
+            duration: 1400,
+        });
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        function sendEmail() {
+        window.open('mailto:agarkhedaditya@gmail.com');
+        }
+
+        </script>
+
+    </body>
+</html>
